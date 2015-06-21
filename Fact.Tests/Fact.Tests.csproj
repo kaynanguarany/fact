@@ -68,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Compile Include="Specs\Domain.Model\ContaBancaria.spec.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Fact\Fact.csproj">
