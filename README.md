@@ -1,4 +1,4 @@
-# fact
+# Fact
 Is a great tool to improve your stubs tests. Inspired in FFaker, a great Ruby test feature, Fact bring the same experiênce to C# developers
 
 ## Fakers
