@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Fact.Faker.US
 {
-    class AddressUS
+    public class AddressUS
     {
         public static string State => STATES.Rand();
         public static string StateAbbr => STATES_ABBR.Rand();
