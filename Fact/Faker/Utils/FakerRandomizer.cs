@@ -40,9 +40,9 @@ namespace Fact.Faker.Utils
             return value.Split(separator).Rand();
         }
 
-        public static int Randomize(this int max)
+        public static int Randomize(this int max, int min = 0)
         {
-            return random.Next(0, max);
+            return random.Next(min, max);
         }
     }
 }

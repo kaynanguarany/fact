@@ -42,6 +42,9 @@
     <Compile Include="Factory\Builder.cs" />
     <Compile Include="Factory\BuilderFactItem.cs" />
     <Compile Include="Faker\BR\AddressBR.cs" />
+    <Compile Include="Faker\BR\DateBR.cs" />
+    <Compile Include="Faker\DateAndTime.cs" />
+    <Compile Include="Faker\US\LocaleUS.cs" />
     <Compile Include="Faker\Utils\FakerNumerify.cs" />
     <Compile Include="Faker\Company.cs" />
     <Compile Include="Faker\Conference.cs" />
@@ -51,9 +54,12 @@
     <Compile Include="Faker\Utils\FakerRandomizer.cs" />
     <Compile Include="Faker\Name.cs" />
     <Compile Include="Faker\US\AddressUS.cs" />
+    <Compile Include="Faker\Vehicle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Nuget\Fact.1.0.14.nupkg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
